@@ -29,28 +29,22 @@ public class MainActivity extends AppCompatActivity {
                 TextView show_attempts = (TextView) findViewById(R.id.show_attempts);
                 Context context = getApplicationContext();
                 int attemps = Integer.parseInt(show_attempts.getText().toString());
-                if(attemps == 1)
-                {
-                    Toast.makeText(context,R.string.loss,Toast.LENGTH_LONG).show();
-                    btn_guess.setEnabled(false);
-                }
-                if(num == comp_num)
-                {
-                    show_msg.setText(R.string.show_msg_finish_label);
-                    Toast.makeText(context,R.string.wishes,Toast.LENGTH_LONG).show();
-                    btn_guess.setEnabled(false);
-                }
-                else if(num<comp_num)
-                {
-                    show_hint.setText(R.string.show_msg_bigger_label);
+                    if (num == comp_num) {
+                        show_msg.setText(R.string.show_msg_finish_label);
+                        Toast.makeText(context, R.string.wishes, Toast.LENGTH_LONG).show();
+                        btn_guess.setEnabled(false);
+                    } else if (num < comp_num) {
+                        show_hint.setText(R.string.show_msg_bigger_label);
+                    } else {
+                        show_hint.setText(R.string.show_msg_smaller_label);
+                    }
                     attemps--;
                     show_attempts.setText(Integer.toString(attemps));
-                }
-                else{
-                    show_hint.setText(R.string.show_msg_smaller_label);
-                    attemps--;
-                    show_attempts.setText(Integer.toString(attemps));
-                }
+                    if(attemps == 0 && num != comp_num)
+                    {
+                        Toast.makeText(context,R.string.loss,Toast.LENGTH_LONG).show();
+                        btn_guess.setEnabled(false);
+                    }
             }
         };
         btn_guess.setOnClickListener(clck);
