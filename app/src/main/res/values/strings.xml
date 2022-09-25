@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Угадай число</string>
+    <string name="wishes">Поздравляю!</string>
+    <string name="loss">Вы проиграли!</string>
+    <string name="show_msg_label">Отгадай!</string>
+    <string name="show_msg_finish_label">Отгадано!</string>
+    <string name="show_msg_bigger_label">Загаданное число больше!</string>
+    <string name="show_msg_smaller_label">Загаданное число меньше!</string>
+    <string name="show_hint_label">Задумано двухзначное число.</string>
+    <string name="hint_label">Введите число</string>
+    <string name="show_attempts_label">5</string>
+    <string name="btn_guess_label">Отгадать</string>
+    <string name="btn_restart_label">Заново</string>
+</resources>

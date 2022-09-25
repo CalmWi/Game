@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/show_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_msg_label"
+        android:textColor="@color/purple_200"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/show_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_hint_label"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_label"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_guess_label"/>
+
+    <TextView
+        android:id="@+id/show_attempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_attempts_label"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="serif-monospace"/>
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_restart_label"
+        android:onClick="restart"
+        />
+
+</android.widget.LinearLayout>
