@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="wishes">Congratulations!</string>
+    <string name="loss">You lost!</string>
+    <string name="show_msg_label">Guess!</string>
+    <string name="show_msg_finish_label">Guessed!</string>
+    <string name="show_msg_bigger_label">The hidden number is greater!</string>
+    <string name="show_msg_smaller_label">The hidden number is less!</string>
+    <string name="show_hint_label">Conceived number.</string>
+    <string name="hint_label">Input the number</string>
+    <string name="show_attempts_label">5</string>
+    <string name="btn_guess_label">Guess</string>
+    <string name="btn_restart_label">Restart</string>
+    <string name="dialog_title">Restart</string>
+    <string name="item_two">Restart</string>
+    <string name="item_tree">Restart</string>
+    <string name="item_four">Restart</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn_mode_label">Choose mode</string>
+    <string name="btn_send_label">Send result</string>
+    <string name="btn_save_label">Save result</string>
+    <string name="player_name">Superplayer</string>
+    <string name="bth_change_name">Change</string>
+    <string name="hint_name_label">Input name</string>
+    <string name="btn_back_label">Save</string>
+    <string name="settings">Settings</string>
+    <string name="aboutDeveloper">About developer</string>
+</resources>

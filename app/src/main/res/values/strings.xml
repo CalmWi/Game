@@ -6,9 +6,24 @@
     <string name="show_msg_finish_label">Отгадано!</string>
     <string name="show_msg_bigger_label">Загаданное число больше!</string>
     <string name="show_msg_smaller_label">Загаданное число меньше!</string>
-    <string name="show_hint_label">Задумано двухзначное число.</string>
+    <string name="show_hint_label">Задумано число.</string>
     <string name="hint_label">Введите число</string>
     <string name="show_attempts_label">5</string>
     <string name="btn_guess_label">Отгадать</string>
     <string name="btn_restart_label">Заново</string>
+    <string name="dialog_title">Диапазон числа</string>
+    <string name="item_two">2х-значное</string>
+    <string name="item_tree">3х-значное</string>
+    <string name="item_four">4х-значное</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Отмена</string>
+    <string name="btn_mode_label">Выбор режима</string>
+    <string name="btn_send_label">Отправить итог</string>
+    <string name="btn_save_label">Сохранить результат</string>
+    <string name="player_name">Суперигрок</string>
+    <string name="bth_change_name">Изменить</string>
+    <string name="hint_name_label">Введите имя</string>
+    <string name="btn_back_label">Сохранить</string>
+    <string name="settings">Настройки</string>
+    <string name="aboutDeveloper">Об авторе</string>
 </resources>

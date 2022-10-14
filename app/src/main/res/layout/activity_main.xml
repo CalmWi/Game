@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.widget.LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     android:background="@color/cardview_dark_background"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/show_player"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="@string/player_name"
+            android:textColor="@color/purple_200"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btn_change_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/bth_change_name"
+            />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/show_msg"
@@ -16,6 +34,7 @@
         android:text="@string/show_msg_label"
         android:textColor="@color/purple_200"
         android:textAlignment="center"
+        android:layout_marginTop="20dp"
         android:textSize="30dp" />
     <TextView
         android:id="@+id/show_hint"
@@ -31,10 +50,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_label"
-        android:inputType="number"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20dp" />
+
     <Button
         android:id="@+id/btn_guess"
         android:layout_width="match_parent"
@@ -57,6 +76,24 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_restart_label"
         android:onClick="restart"
+        />
+    <Button
+        android:id="@+id/btn_choose_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_mode_label"
+        />
+    <Button
+        android:id="@+id/btn_send_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_send_label"
+        />
+    <Button
+        android:id="@+id/btn_save_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save_label"
         />
 
 </android.widget.LinearLayout>
