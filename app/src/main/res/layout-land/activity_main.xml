@@ -57,12 +57,6 @@
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:text="@string/btn_guess_label"/>
-        <Button
-            android:id="@+id/btn_choose_mode"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:text="@string/btn_mode_label"
-            />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"

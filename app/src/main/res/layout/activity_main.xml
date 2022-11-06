@@ -78,12 +78,6 @@
         android:onClick="restart"
         />
     <Button
-        android:id="@+id/btn_choose_mode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_mode_label"
-        />
-    <Button
         android:id="@+id/btn_send_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -26,4 +26,6 @@
     <string name="btn_back_label">Сохранить</string>
     <string name="settings">Настройки</string>
     <string name="aboutDeveloper">Об авторе</string>
+    <string name="FIO">Пурас Жанна Вадимовна</string>
+    <string name="Info">Студентка 3 курса специальности ПОИТ группы 203</string>
 </resources>

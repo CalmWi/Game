@@ -4,8 +4,9 @@
 
     <item android:title="@string/settings"
         android:id="@+id/settingsMenuItem"
+        android:icon="@drawable/ic_setting"
         android:orderInCategory="1"
-        app:showAsAction="never"
+        app:showAsAction="ifRoom"
         />
     <item android:title="@string/aboutDeveloper"
         android:id="@+id/aboutMenuItem"
